@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 import Header from '../component/Header'
-=======
 import { Link } from "react-router-dom";
->>>>>>> a631d7d1f5bc50189e37b71b84b119b49d8fa6a1
 
 export default function Blogs() {
     return (
