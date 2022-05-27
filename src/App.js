@@ -1,22 +1,19 @@
 import { Link } from "react-router-dom";
 import './App.css';
+import Header from './component/Header'
+import SocialMedia from './component/SocialMedia';
 
 function App() {
   return (
     <div className='background'>
-      <h1>Portfolio App</h1>
-      <h2>Ichiro Yamasaki</h2>
-      <h3>Network Engineer</h3>
-      <nav
-        style={{
-          borderBottom: "solid 1px",
-          paddingBottom: "1rem",
-        }}
-      >
-        <Link to="/Home">Home</Link> |{" "}
-        <Link to="/Blogs">Blogs</Link> |{" "}
-        <Link to="/AboutthisApp">About this App</Link>
-      </nav>
+      <Header />
+      <h1>Ichiro Yamasaki</h1>
+      <h2>Network Deploy Tech at AWS</h2>
+      <p> I am working as network technician at AWS. 
+      <br /> I came to the states in April-2017 dreaming that I start the successfull tech company one-day in sillicon valley.
+      <br /> Now, my main focus is networking, devops and its automation
+      </p>
+      <SocialMedia />
     </div>
   );
 }

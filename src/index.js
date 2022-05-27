@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 import App from "./App";
 import Blogs from "./routes/Blogs";
-import Invoices from "./routes/Home";
+import Accomplishment from "./routes/Accomplishment";
 import AboutthisApp from "./routes/AboutthisApp"
 import BlogPost1 from "./routes/BlogPost1"
 
@@ -20,7 +20,7 @@ root.render(
       <Route path="AboutthisApp" element={<AboutthisApp/>} />
       <Route path="Blogs" element={<Blogs />} />
       <Route path="blogpost1" element={<BlogPost1 />} />
-      <Route path="Home" element={<Invoices />} />
+      <Route path="Accomplishment" element={<Accomplishment />} />
     </Routes>
   </BrowserRouter>
 );
