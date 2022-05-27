@@ -4,9 +4,14 @@ import { Link } from "react-router-dom";
 
 const Header = () => (
     <div className="header">
-      <Link to="/Home">
+     <Link to="/">
      <button type="button">
           Home
+     </button>
+     </Link>
+      <Link to="/Accomplishment">
+     <button type="button">
+          Accomplishment
      </button>
      </Link>
      <Link to="/Blogs">

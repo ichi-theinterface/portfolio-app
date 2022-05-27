@@ -1,7 +1,7 @@
 const SocialMedia = () => {
 	return (
 		<div>
-			<span>Find Me on</span>
+			<span>Please find me on social media!!</span>
 				<p>
 					<a href="https://twitter.com/BiteChacha" rel="noreferrer" target="_blank">
 						Twitter
