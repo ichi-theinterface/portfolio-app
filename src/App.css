@@ -74,7 +74,6 @@
   height: auto;
   text-align: left;
   background: #0a192f;
-  color: antiquewhite;
 }
 
 .BriefIntroduction {
@@ -90,5 +89,14 @@
 }
 
 .NameinGreeting {
-  font-size:50px
+  font-size:50px;
+  color: antiquewhite;
+}
+
+.HiMyNameIs {
+  color: #2ecc71;
+}
+
+.OneLineDescription {
+  color: #808080;
 }
