@@ -37,6 +37,12 @@
   }
 }
 
+menu, ol, ul, li {
+  list-style: none;
+  line-height: 2.5em;
+  color: antiquewhite
+}
+
 .canvas {
   width: auto;
   height: auto;
@@ -99,4 +105,20 @@
 
 .OneLineDescription {
   color: #808080;
+}
+
+.sidebar {
+  border:1px solid skyblue;
+  width:100px;
+  position:absolute;
+  left:0;
+  top:50px;
+  bottom:50px;
+  display: block;
+  color: antiquewhite;
+}
+
+.img-responsive {
+  width: 50%;
+  height: 50%;
 }
