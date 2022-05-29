@@ -7,9 +7,10 @@ export default function Home() {
       <div className='background'>
         <Header />
       <main style={{ padding: "1rem 0" }}>
-        <h2>Portfolio page</h2>
-            <h1>Hello, my name is Ichiro. </h1>
-            <SocialMedia />
+        <h2>List of accomplishment</h2>
+            <ol> CCNA</ol>
+            <ol> CCNP</ol>
+            <ol> Udemy Courses</ol>
       </main>
       </div>
     );
