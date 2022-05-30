@@ -1,5 +1,4 @@
 import React from 'react';
-import header from '../App.css';
 
 const Greeting = () => (
     <div className="greeting">
