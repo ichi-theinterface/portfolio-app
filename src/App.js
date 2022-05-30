@@ -1,21 +1,19 @@
 import { Link } from "react-router-dom";
 import './App.css';
 import Header from './component/Header';
-import SocialMedia from './component/SocialMedia';
-import Greeting from './component/Greeting'
-import BriefIntroduction from './component/BriefIntroduction'
 import SideBar from './component/sidebar';
+import Main from "./component/Main";
 
 function App() {
   return (
-    <div className="canvas">
-      <Header />
-      <SideBar />
-      <Greeting />
-      <BriefIntroduction />
+    <div className="frame">
+      <div class="canvas">
+        <Header />
+        <SideBar />
+        <Main />
       </div>
+    </div>
   );
 }
 
 export default App;
-
