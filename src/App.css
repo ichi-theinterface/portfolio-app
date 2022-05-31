@@ -45,12 +45,12 @@ menu, ol, ul, li {
 .frame {
   height: 1000px;
   width: 100%;
-  background: #0a192f;
+  background: #0a2f13;
 }
 
 .canvas {
   height: 100%;
-  background-color: #0a192f;
+  background-color: #000000;
   overflow: hidden;
 }
 
@@ -59,7 +59,6 @@ menu, ol, ul, li {
   padding-bottom: 0.5%;
   padding-right: 4%;
   text-align: right;
-  background: #0a192f;
   height: 10%;
   width: 100%;
   margin: auto;
@@ -79,18 +78,17 @@ menu, ol, ul, li {
   right: 10%;
   width: 80%;
   height: 100%;
-  background: #0a192f;
 }
 
 .background {
-  background-color: #0a192f;
+  background-color: #0a2f13;
 }
 
 .center {
   margin: 0 auto;
   width: 70%;
   text-align: left;
-  background-color: #0a192f;
+  background-color: #0a2f13;
   padding: 25px 0;
 }
 
@@ -104,7 +102,7 @@ menu, ol, ul, li {
   width: 80%;
   height: auto;
   text-align: left;
-  background: #0a192f;
+  background: #000000;
 }
 
 .BriefIntroduction {
@@ -115,13 +113,55 @@ menu, ol, ul, li {
   margin: auto auto;
   width: 80%;
   height: auto;
-  background: #0a192f;
+  background: #000000;
+  text-align: center;
+  font-family: "Lucida Console";
+  text-decoration: underline;
+  text-decoration-color: rgb(229, 255, 0);
   color: antiquewhite;
 }
 
-.NameinGreeting {
-  font-size:50px;
+.Introduction {
+  border:1px solid skyblue;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
   color: antiquewhite;
+  margin: auto auto;
+  width: 80%;
+  height: auto;
+}
+
+.Experience {
+  border:1px solid skyblue;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+  color: antiquewhite;
+  margin: auto auto;
+  width: 80%;
+  height: auto;
+} 
+
+.ContactMe {
+  border:1px solid skyblue;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 1%;
+  padding-right: 1%;
+  color: antiquewhite;
+  margin: auto auto;
+  width: 80%;
+  height: auto;
+}
+
+.NameinGreeting {
+  text-align: center;
+  font-size:50px;
+  font-family: "Lucida Console";
+  color: rgb(229, 255, 0);
 }
 
 .HiMyNameIs {
@@ -139,4 +179,5 @@ menu, ol, ul, li {
 
 .sample {
   border:1px solid skyblue;
+  background: #0a192f;
 }
