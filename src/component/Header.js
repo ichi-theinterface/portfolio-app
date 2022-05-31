@@ -4,26 +4,46 @@ import { Link } from "react-router-dom";
 
 const Header = () => (
     <div className="header">
-       <Link to="/">
-         <button type="button">
-              Home
-         </button>
-       </Link>
-        <Link to="/Accomplishment">
-         <button type="button">
-              Accomplishment
-         </button>
-       </Link>
-       <Link to="/Blogs">
-         <button type="button">
-              Blogs
-         </button>
-       </Link>
-       <Link to="/AboutthisApp">
-         <button type="button">
-              About this app
-         </button>
-       </Link>
+      <div className='HeaderButtonFrame'>
+        <div className='HeaderButtons'>
+          <Link to="/">
+                 <h5 className='HeaderButtonText'>Home</h5>
+          </Link>
+         </div>
+         <div className='HeaderButtons'>
+          
+         </div>
+         <div className='HeaderButtons'>
+          
+         </div>
+         <div className='HeaderButtons'>
+          
+         </div>
+         <div className='HeaderButtons'>
+          
+         </div>
+         <div className='HeaderButtons'>
+          
+         </div>
+         <div className='HeaderButtons'>
+          
+         </div>
+        <div className='HeaderButtons'>
+          <Link to="/Accomplishment">
+                 <h5 className='HeaderButtonText'>Accomplishment</h5>
+          </Link>
+         </div>
+        <div className='HeaderButtons'>
+          <Link to="/Blogs">
+                 <h5 className='HeaderButtonText'>Blogs</h5>
+           </Link>
+         </div>
+        <div className='HeaderButtons'>
+          <Link to="/AboutthisApp">
+                  <h5 className='HeaderButtonText'>About this app</h5>
+          </Link>
+         </div>
+       </div>
     </div>
   );
 
