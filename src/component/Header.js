@@ -5,32 +5,42 @@ import { Link } from "react-router-dom";
 const Header = () => (
     <div className="header">
       <div className='HeaderButtonFrame'>
-        <div className='HeaderButton'>
+        <div className='HeaderButtons'>
           <Link to="/">
-            <button type="button">
-                 Home
-            </button>
+                 <h5 className='HeaderButtonText'>Home</h5>
           </Link>
          </div>
-        <div className='HeaderButton'>
+         <div className='HeaderButtons'>
+          
+         </div>
+         <div className='HeaderButtons'>
+          
+         </div>
+         <div className='HeaderButtons'>
+          
+         </div>
+         <div className='HeaderButtons'>
+          
+         </div>
+         <div className='HeaderButtons'>
+          
+         </div>
+         <div className='HeaderButtons'>
+          
+         </div>
+        <div className='HeaderButtons'>
           <Link to="/Accomplishment">
-           <button type="button">
-                Accomplishment
-           </button>
+                 <h5 className='HeaderButtonText'>Accomplishment</h5>
           </Link>
          </div>
-        <div className='HeaderButton'>
+        <div className='HeaderButtons'>
           <Link to="/Blogs">
-            <button type="button">
-                Blogs
-             </button>
+                 <h5 className='HeaderButtonText'>Blogs</h5>
            </Link>
          </div>
-        <div className='HeaderButton'>
+        <div className='HeaderButtons'>
           <Link to="/AboutthisApp">
-            <button type="button">
-                 About this app
-            </button>
+                  <h5 className='HeaderButtonText'>About this app</h5>
           </Link>
          </div>
        </div>

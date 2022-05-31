@@ -55,7 +55,6 @@ menu, ol, ul, li {
 }
 
 .header {
-  border:1px solid skyblue;
   padding-right: 20%;
   height: 10%;
   width: 100%;;
@@ -63,19 +62,25 @@ menu, ol, ul, li {
 }
 
 .HeaderButtonFrame {
-  border:1px solid skyblue;
-  text-align: left;
   width: 80%;
   height: 40%;
   margin-right: 10%;
   margin-left: 10%;
   margin-top: 2%;
+  display: flex;
+  justify-content: flex-end;
 }
 
-.HeaderButton {
-  width: 20%;
-  height: 40%;
-  display: inline-block;
+.HeaderButtons {
+  width: 10%;
+  height: 100%;
+  color: rgb(229, 255, 0);
+  text-decoration-color: rgb(229, 255, 0);
+  text-align: center;
+}
+
+.HeaderButtonText {
+  color: rgb(229, 255, 0);
 }
 
 .sidebar {
@@ -143,7 +148,7 @@ menu, ol, ul, li {
   padding-right: 1%;
   color: antiquewhite;
   margin: auto auto;
-  width: 80%;
+  width: 60%;
   height: auto;
 } 
 
@@ -155,7 +160,7 @@ menu, ol, ul, li {
   padding-right: 1%;
   color: antiquewhite;
   margin: auto auto;
-  width: 80%;
+  width: 60%;
   height: auto;
 }
 
