@@ -55,13 +55,27 @@ menu, ol, ul, li {
 }
 
 .header {
-  padding-top: 1.5%;
-  padding-bottom: 0.5%;
-  padding-right: 4%;
-  text-align: right;
+  border:1px solid skyblue;
+  padding-right: 20%;
   height: 10%;
-  width: 100%;
+  width: 100%;;
   margin: auto;
+}
+
+.HeaderButtonFrame {
+  border:1px solid skyblue;
+  text-align: left;
+  width: 80%;
+  height: 40%;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 2%;
+}
+
+.HeaderButton {
+  width: 20%;
+  height: 40%;
+  display: inline-block;
 }
 
 .sidebar {
@@ -78,18 +92,6 @@ menu, ol, ul, li {
   right: 10%;
   width: 80%;
   height: 100%;
-}
-
-.background {
-  background-color: #0a2f13;
-}
-
-.center {
-  margin: 0 auto;
-  width: 70%;
-  text-align: left;
-  background-color: #0a2f13;
-  padding: 25px 0;
 }
 
 .greeting {
@@ -111,7 +113,7 @@ menu, ol, ul, li {
   padding-left: 1%;
   padding-right: 1%;
   margin: auto auto;
-  width: 50%;
+  width: 60%;
   height: auto;
   background: #000000;
   text-align: center;
@@ -175,6 +177,18 @@ menu, ol, ul, li {
 .img-responsive {
   width: 50%;
   height: 50%;
+}
+
+.background {
+  background-color: #0a2f13;
+}
+
+.center {
+  margin: 0 auto;
+  width: 70%;
+  text-align: left;
+  background-color: #0a2f13;
+  padding: 25px 0;
 }
 
 .sample {
