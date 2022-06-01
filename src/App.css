@@ -43,7 +43,7 @@ menu, ol, ul, li {
 }
 
 .frame {
-  height: 1000px;
+  height: 1500px;
   width: 100%;
   background: #000000;
 }
@@ -152,7 +152,7 @@ menu, ol, ul, li {
   color: antiquewhite;
   margin: auto auto;
   width: 60%;
-  height: 30%;
+  height: 80%;
 }
 
 .WhereIWorked {
